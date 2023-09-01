@@ -1,0 +1,11 @@
+/* @import '../../../base/bootstrap-extended/include'; */
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color:  #252525;
+}
