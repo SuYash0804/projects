@@ -46,11 +46,6 @@ export default function App() {
   }
   return (
     <>
-    <style>{`
-      .cursor-pointer {
-        cursor: pointer !inportant;
-      }
-    `}</style>
       <div className="d-flex flex-column align-items-stretch p-2">
         <div className="d-flex justify-content-center align-items-center p-4 gap-3">
           <input value={task} onChange={e => setTask(e.target.value)} onKeyDown={e => {
