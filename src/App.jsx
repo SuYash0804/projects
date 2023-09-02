@@ -83,7 +83,7 @@ export default function App() {
                       <span className="fs-5" onDragStart={e => e.stopPropagation}>{ele.taskName}</span>
                     </div>
                     <div className="d-flex align-items-center gap-3">
-                      <Edit className="cursor-pointer" size={17.5} /> <Trash className="cursor-pointer" onClick={() => {
+                      <Trash className="cursor-pointer" onClick={() => {
                         const arr = [...tasks]
                         arr.splice(key, 1)
                         setTasks([...arr])
